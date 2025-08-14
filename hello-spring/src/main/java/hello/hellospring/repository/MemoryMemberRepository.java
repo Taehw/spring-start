@@ -47,7 +47,7 @@ public class MemoryMemberRepository implements MemberRepository{
         return new ArrayList<>(store.values()); //store의 value는 member member들의 List가 반환됨
     }
 
-    @Override
+
     public void clearStore() {
         store.clear(); //저장된 목록 쏵삭제
     }

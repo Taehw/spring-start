@@ -18,6 +18,6 @@ public interface MemberRepository {
     //3. 모든 회원 찾기
     List<Member> findAll();
 
-    //4.
-    void clearStore();
+//    //4.
+//    void clearStore();
 }

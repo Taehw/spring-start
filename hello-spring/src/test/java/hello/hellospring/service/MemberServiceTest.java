@@ -29,6 +29,7 @@ class MemberServiceTest {
     }
     @AfterEach //각 테스트가 끝나고 동작
     public void afterEach() {
+
         memberRepository.clearStore();
     }
 
